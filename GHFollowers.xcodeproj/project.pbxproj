@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		55F8AEF42D76DEEF007BC1E9 /* Exceptions for "GHFollowers" folder in "GHFollowers" target */ = {
+		5570B7042D797D8900C69E44 /* Exceptions for "GHFollowers" folder in "GHFollowers" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,10 +40,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		55F8AECE2D76DEED007BC1E9 /* GHFollowers */ = {
+		5570B6862D797B8400C69E44 /* GHFollowers */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				55F8AEF42D76DEEF007BC1E9 /* Exceptions for "GHFollowers" folder in "GHFollowers" target */,
+				5570B7042D797D8900C69E44 /* Exceptions for "GHFollowers" folder in "GHFollowers" target */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 		55F8AEC32D76DEED007BC1E9 = {
 			isa = PBXGroup;
 			children = (
-				55F8AECE2D76DEED007BC1E9 /* GHFollowers */,
+				5570B6862D797B8400C69E44 /* GHFollowers */,
 				55F8AEE52D76DEEF007BC1E9 /* GHFollowersTests */,
 				55F8AEEF2D76DEEF007BC1E9 /* GHFollowersUITests */,
 				55F8AECD2D76DEED007BC1E9 /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				55F8AECE2D76DEED007BC1E9 /* GHFollowers */,
+				5570B6862D797B8400C69E44 /* GHFollowers */,
 			);
 			name = GHFollowers;
 			packageProductDependencies = (
@@ -293,7 +293,6 @@
 				INFOPLIST_FILE = GHFollowers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +319,6 @@
 				INFOPLIST_FILE = GHFollowers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
