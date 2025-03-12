@@ -38,8 +38,10 @@ class GFFollowerCollectionViewCell: UICollectionViewCell {
             avatarImageView.heightAnchor.constraint(equalTo: avatarImageView.widthAnchor),
             
             usernameLabel.topAnchor.constraint(equalTo: avatarImageView.bottomAnchor, constant: padding),
-            usernameLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),usernameLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -padding),
+            usernameLabel.leadingAnchor.constraint(equalTo: leadingAnchor, constant: padding),
+            usernameLabel.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -padding),
             usernameLabel.heightAnchor.constraint(equalToConstant: 3 * padding)
         ])
     }
 }
+ 

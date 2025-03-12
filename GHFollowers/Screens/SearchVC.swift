@@ -50,7 +50,7 @@ class SearchVC: UIViewController {
     }
     
     func configureTitleImage() {
-        headerImageView.image = UIImage(named: "gh-logo")
+        headerImageView.image = UIImage(resource: .ghLogo)
         headerImageView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(headerImageView)
         

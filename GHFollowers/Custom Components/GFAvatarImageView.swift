@@ -9,7 +9,7 @@ import UIKit
 
 class GFAvatarImageView: UIImageView {
 
-    let placeholder  = UIImage(named: "avatar-placeholder")
+    let placeholder  = UIImage(resource: .avatarPlaceholder)
     let cache        = NetworkManager.shared.cache
     
     override init(frame: CGRect) {
@@ -40,7 +40,7 @@ class GFAvatarImageView: UIImageView {
         let task = URLSession.shared.dataTask(with: url) { data, response, error in
             if error != nil { return }
             guard let response = response as? HTTPURLResponse, response.statusCode == 200  else { return }
-            guard let data = data else { return }
+            guard let data else { return }
             guard let image = UIImage(data: data) else { return }
             
             self.cache.setObject(image, forKey: cacheKey)

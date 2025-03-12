@@ -67,7 +67,7 @@ class FollowerListVC: UIViewController {
         showLoading()
         isLoadingMore = true
         NetworkManager.shared.getFollowers(for: username, page: page) { [weak self] result in
-            guard let self = self else { return }
+            guard let self else { return }
             dismissloading()
             
             switch result {
@@ -135,16 +135,16 @@ extension FollowerListVC: UICollectionViewDelegate {
     @objc func addButtonTapped() {
         showLoading()
         NetworkManager.shared.getUserInfo(for: username) { [weak self] result in
-            guard let self = self else { return }
+            guard let self else { return }
             self.dismissloading()
             
             switch result {
             case .success(let user):
                 let favorite = Follower(login: user.login, avatarUrl: user.avatarUrl)
                 PersistenceManager.updateWith(favorite: favorite, actionType: PersistenceActionType.add) { [weak self] error in
-                    guard let self = self else { return }
+                    guard let self else { return }
                     
-                    guard let error = error else {
+                    guard let error else {
                         self.presentGFAlertOnMainThread(title: "Succes!", message: "User Added to Favorites 😄", buttonTitle: "Hooray!")
                         return
                     }
